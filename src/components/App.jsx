@@ -3,7 +3,7 @@ const App = () => {
   
   return(
     <>
-      <h1>Hello world</h1>
+      <h1>{import.meta.env.VITE_TEST_MESSAGE}</h1>
     </>
   );
 };
